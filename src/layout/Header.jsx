@@ -30,7 +30,7 @@ function Header() {
           </h2>
         </div>
         <div className="flex items-center mr-2">
-          <Link to={"/settings"}>
+          <Link to={"/imanSteps/settings"}>
             <IconButton variant="text">
               <IoMdSettings className="text-2xl ml-2 text-black dark:text-white" />
             </IconButton>

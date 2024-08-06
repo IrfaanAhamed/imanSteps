@@ -20,7 +20,7 @@ function MainDuaComponent({ data }) {
   return (
     <div className="dark:text-white flex w-full flex-col h-screen">
       <div className="relative">
-        <Link className="absolute top-0 left-0 z-20" to={"/duas"}>
+        <Link className="absolute top-0 left-0 z-20" to={"/imanSteps/duas"}>
           <IconButton variant="text">
             <IoMdArrowBack className="text-xl dark:text-white text-black" />
           </IconButton>

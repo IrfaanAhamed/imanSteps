@@ -21,10 +21,10 @@ const Article = lazy(() => import("./pages/Article"));
 function App() {
   const location = useLocation();
   const [state, setState] = useState([
-    { Icon: GoHome, label: "Home", href: "/" },
-    { Icon: FaPray, label: "Duas", href: "/duas" },
-    { Icon: MdOutlineArticle, label: "Article", href: "/article" },
-    { Icon: ImFilm, label: "Videos", href: "/videos" },
+    { Icon: GoHome, label: "Home", href: "/imanSteps" },
+    { Icon: FaPray, label: "Duas", href: "/imanSteps/duas" },
+    { Icon: MdOutlineArticle, label: "Article", href: "/imanSteps/article" },
+    { Icon: ImFilm, label: "Videos", href: "/imanSteps/videos" },
   ]);
   console.log(routeData);
   useEffect(() => {
@@ -84,13 +84,13 @@ function App() {
                   </>
                 }
               >
-                <Route path="/" element={<Home />} />
-                <Route path="/duas" element={<Duas />} />
-                <Route path="/article" element={<Article />} />
-                <Route path="/videos" element={<Videos />} />
+                <Route path="/imanSteps" element={<Home />} />
+                <Route path="/imanSteps/duas" element={<Duas />} />
+                <Route path="/imanSteps/article" element={<Article />} />
+                <Route path="/imanSteps/videos" element={<Videos />} />
               </Route>
               <Route element={<Layout />}>
-                <Route path="/settings" element={<Settings />} />
+                <Route path="/imanSteps/settings" element={<Settings />} />
               </Route>
               {routeData.map((route, index) => {
                 console.log(route.Element);

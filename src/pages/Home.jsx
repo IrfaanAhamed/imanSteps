@@ -3,13 +3,7 @@ import { Carousel } from "@material-tailwind/react";
 import { Badge, Button } from "@material-tailwind/react";
 import { mainDuasBody } from "../Components/Home/Main";
 import { CheckIcon } from "@heroicons/react/24/outline";
-import morning from "../assets/mainImages/morning.jpg";
-import evening from "../assets/mainImages/evening.jpg";
-import beforeSleep from "../assets/mainImages/beforeSleep.jpg";
-import fasting from "../assets/mainImages/fasting.jpg";
-import natureDisaster from "../assets/mainImages/natureDisaster.jpg";
-import sandarbam from "../assets/mainImages/sandarbam.jpg";
-import swalah from "../assets/mainImages/swalah.jpg";
+
 import { IoIosNotifications } from "react-icons/io";
 import { Link } from "react-router-dom";
 

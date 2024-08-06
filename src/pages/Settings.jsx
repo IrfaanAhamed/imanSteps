@@ -38,7 +38,7 @@ function Settings() {
         items-center absolute left-1/2 -translate-x-1/2 right-0
         dark:bg-darkSecondary/70 dark:text-white duration-300"
       >
-        <Link className="absolute top-0 left-0" to={"/"}>
+        <Link className="absolute top-0 left-0" to={"/imanSteps"}>
           <IconButton variant="text">
             <IoMdArrowBack className="text-xl dark:text-white text-black" />
           </IconButton>
